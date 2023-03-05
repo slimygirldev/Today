@@ -18,6 +18,7 @@
 		98CCC8BA29B4E71900D41685 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8B929B4E71900D41685 /* CoreDataStack.swift */; };
 		98CCC8BD29B4E7F200D41685 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8BC29B4E7F200D41685 /* TabBarViewController.swift */; };
 		98CCC8C029B4E93C00D41685 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8BF29B4E93C00D41685 /* ProfilViewController.swift */; };
+		98CCC8CD29B4FCF100D41685 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8CC29B4FCF100D41685 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		98CCC8B929B4E71900D41685 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		98CCC8BC29B4E7F200D41685 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		98CCC8BF29B4E93C00D41685 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		98CCC8CC29B4FCF100D41685 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				98CCC8C329B4F6B300D41685 /* CoreData */,
+				98CCC8CC29B4FCF100D41685 /* Entry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				98CCC88229B4E61F00D41685 /* AppDelegate.swift in Sources */,
 				98CCC8BA29B4E71900D41685 /* CoreDataStack.swift in Sources */,
 				98CCC88429B4E61F00D41685 /* SceneDelegate.swift in Sources */,
+				98CCC8CD29B4FCF100D41685 /* Entry.swift in Sources */,
 				98CCC88C29B4E61F00D41685 /* Today.xcdatamodeld in Sources */,
 				98CCC8C029B4E93C00D41685 /* ProfilViewController.swift in Sources */,
 			);
