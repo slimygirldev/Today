@@ -19,6 +19,12 @@
 		98CCC8BD29B4E7F200D41685 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8BC29B4E7F200D41685 /* TabBarViewController.swift */; };
 		98CCC8C029B4E93C00D41685 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8BF29B4E93C00D41685 /* ProfilViewController.swift */; };
 		98CCC8CD29B4FCF100D41685 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8CC29B4FCF100D41685 /* Entry.swift */; };
+		98CCC8D029B50C9D00D41685 /* EntryCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8CF29B50C9D00D41685 /* EntryCardCollectionView.swift */; };
+		98CCC8D229B50CAF00D41685 /* EntryCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8D129B50CAF00D41685 /* EntryCardCollectionViewCell.swift */; };
+		98CCC8D529B5165700D41685 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8D429B5165700D41685 /* AddEntryViewController.swift */; };
+		98CCC8D729B7655D00D41685 /* EntryBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCC8D629B7655D00D41685 /* EntryBusiness.swift */; };
+		E3D2BECF29BF272A0036E27E /* CreateEntryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2BECE29BF272A0036E27E /* CreateEntryCollectionView.swift */; };
+		E3D2BED129BF27450036E27E /* MoodChoiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2BED029BF27450036E27E /* MoodChoiceCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		98CCC8BC29B4E7F200D41685 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		98CCC8BF29B4E93C00D41685 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		98CCC8CC29B4FCF100D41685 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		98CCC8CF29B50C9D00D41685 /* EntryCardCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCardCollectionView.swift; sourceTree = "<group>"; };
+		98CCC8D129B50CAF00D41685 /* EntryCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		98CCC8D429B5165700D41685 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		98CCC8D629B7655D00D41685 /* EntryBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryBusiness.swift; sourceTree = "<group>"; };
+		E3D2BECE29BF272A0036E27E /* CreateEntryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEntryCollectionView.swift; sourceTree = "<group>"; };
+		E3D2BED029BF27450036E27E /* MoodChoiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChoiceCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +116,13 @@
 		98CCC88029B4E61F00D41685 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				98CCC8B429B4E6A700D41685 /* AppleGenerated */,
+				98CCC8C129B4F68B00D41685 /* Ressources */,
 				98CCC8B529B4E6D300D41685 /* Core */,
-				98CCC8B429B4E6A700D41685 /* Apple Generated */,
 				98CCC8BB29B4E7E100D41685 /* Navigation */,
 				98CCC8BE29B4E85E00D41685 /* Controllers */,
-				98CCC8B829B4E70700D41685 /* Models */,
 				98CCC8C229B4F69B00D41685 /* Views */,
-				98CCC8C129B4F68B00D41685 /* Ressources */,
-				98CCC89229B4E62000D41685 /* Info.plist */,
+				98CCC8B829B4E70700D41685 /* Models */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -124,19 +135,21 @@
 			path = TodayTests;
 			sourceTree = "<group>";
 		};
-		98CCC8B429B4E6A700D41685 /* Apple Generated */ = {
+		98CCC8B429B4E6A700D41685 /* AppleGenerated */ = {
 			isa = PBXGroup;
 			children = (
+				98CCC89229B4E62000D41685 /* Info.plist */,
 				98CCC88129B4E61F00D41685 /* AppDelegate.swift */,
 				98CCC88329B4E61F00D41685 /* SceneDelegate.swift */,
 			);
-			path = "Apple Generated";
+			path = AppleGenerated;
 			sourceTree = "<group>";
 		};
 		98CCC8B529B4E6D300D41685 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				98CCC8B629B4E6ED00D41685 /* Observable.swift */,
+				98CCC8D629B7655D00D41685 /* EntryBusiness.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				98CCC88529B4E61F00D41685 /* DiaryViewController.swift */,
+				98CCC8D429B5165700D41685 /* AddEntryViewController.swift */,
 				98CCC8BF29B4E93C00D41685 /* ProfilViewController.swift */,
 			);
 			path = Controllers;
@@ -178,7 +192,10 @@
 		98CCC8C229B4F69B00D41685 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				98CCC8D329B50CB800D41685 /* DiaryViews */,
 				98CCC88F29B4E62000D41685 /* LaunchScreen.storyboard */,
+				E3D2BECE29BF272A0036E27E /* CreateEntryCollectionView.swift */,
+				E3D2BED029BF27450036E27E /* MoodChoiceCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +207,15 @@
 				98CCC8B929B4E71900D41685 /* CoreDataStack.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		98CCC8D329B50CB800D41685 /* DiaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				98CCC8CF29B50C9D00D41685 /* EntryCardCollectionView.swift */,
+				98CCC8D129B50CAF00D41685 /* EntryCardCollectionViewCell.swift */,
+			);
+			path = DiaryViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,12 +349,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				98CCC88629B4E61F00D41685 /* DiaryViewController.swift in Sources */,
+				E3D2BECF29BF272A0036E27E /* CreateEntryCollectionView.swift in Sources */,
 				98CCC8B729B4E6ED00D41685 /* Observable.swift in Sources */,
 				98CCC8BD29B4E7F200D41685 /* TabBarViewController.swift in Sources */,
+				98CCC8D229B50CAF00D41685 /* EntryCardCollectionViewCell.swift in Sources */,
 				98CCC88229B4E61F00D41685 /* AppDelegate.swift in Sources */,
+				E3D2BED129BF27450036E27E /* MoodChoiceCollectionViewCell.swift in Sources */,
+				98CCC8D729B7655D00D41685 /* EntryBusiness.swift in Sources */,
 				98CCC8BA29B4E71900D41685 /* CoreDataStack.swift in Sources */,
 				98CCC88429B4E61F00D41685 /* SceneDelegate.swift in Sources */,
 				98CCC8CD29B4FCF100D41685 /* Entry.swift in Sources */,
+				98CCC8D029B50C9D00D41685 /* EntryCardCollectionView.swift in Sources */,
+				98CCC8D529B5165700D41685 /* AddEntryViewController.swift in Sources */,
 				98CCC88C29B4E61F00D41685 /* Today.xcdatamodeld in Sources */,
 				98CCC8C029B4E93C00D41685 /* ProfilViewController.swift in Sources */,
 			);
@@ -499,7 +531,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GB34966X5M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_FILE = Today/AppleGenerated/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -527,7 +559,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GB34966X5M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_FILE = Today/AppleGenerated/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
